@@ -1,0 +1,13 @@
+
+.item {
+    color: black;
+}
+.item img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+}
+
+
