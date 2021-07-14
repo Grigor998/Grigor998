@@ -7,6 +7,7 @@ import Dialogs from "./Compoments/Dialogs/Dialogs";
 import {Route} from "react-router-dom"
 
 
+
 function App(props) {
     return (
         <div className='app-wrapper'>
@@ -20,7 +21,9 @@ function App(props) {
                        />}/>
                 <Route path={"/profile"}
                        render={() => <Profile posts={props.state.profilePage.posts}
+                                              newPost={props.state.profilePage.newPostText}
                                               addPost={props.addPost}
+                                              updateNewPostText ={props.updateNewPostText}
                        />}/>
             </div>
         </div>
