@@ -5,3 +5,7 @@
     width: 256px;
     padding: 10px;
 }
+.background img {
+    height: auto;
+    width: 100%;
+}

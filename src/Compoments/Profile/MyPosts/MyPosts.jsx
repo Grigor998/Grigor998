@@ -21,8 +21,12 @@ const MyPosts = (props) => {
                 <textarea ref={newPostElement}
                           onChange={onPostChange}
                           value={props.newPostText}
+                          placeholder={'Your new post here...'}
                 />
-                <button onClick={addPost}>Add post</button>
+                <div>
+                    <button className={post.button}  onClickCapture={post.button}  onClick={addPost}>Add post</button>
+                </div>
+
             </div>
             <div>
                 {postsElements}

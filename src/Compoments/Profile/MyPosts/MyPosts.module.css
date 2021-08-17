@@ -1,3 +1,25 @@
 .posts {
  padding: 10px;
 }
+.button {
+ background-color: limegreen;
+ border: none;
+ color: white;
+ padding: 12px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ -webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;
+ grid-auto-columns: auto;
+}
+.button:hover {
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:active {
+ box-shadow: 0 10px 18px 0 rgba(15,45,85,0.24),0 17px 50px 0 rgba(1,4,5,0.19);
+ background-color: darkgreen;
+}
